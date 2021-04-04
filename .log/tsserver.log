@@ -871,3 +871,58 @@ Info 567  [16:41:10.655] Finishing updateGraphWorker: Project: /home/niedzwiedz/
 Info 568  [16:41:10.656] Different program with same set of files:: structureIsReused:: 2
 Info 569  [16:54:27.103] DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/.git :: WatchInfo: /home/niedzwiedz/Programming/slick-table 0 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
 Info 570  [16:54:27.104] Elapsed:: 0.3269580006599426ms DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/.git :: WatchInfo: /home/niedzwiedz/Programming/slick-table 0 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
+Info 571  [17:02:45.763] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 572  [17:02:45.772] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 94 structureChanged: false Elapsed: 9.007831990718842ms
+Info 573  [17:02:45.773] Different program with same set of files:: structureIsReused:: 2
+Info 574  [17:08:12.612] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 575  [17:08:12.620] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 95 structureChanged: false Elapsed: 7.316489040851593ms
+Info 576  [17:08:12.620] Different program with same set of files:: structureIsReused:: 2
+Info 577  [17:08:14.083] FileWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/tsconfig.json 1:: WatchInfo: /home/niedzwiedz/Programming/slick-table/tsconfig.json 2000 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Config file
+Info 578  [17:08:14.084] Elapsed:: 0.3623340129852295ms FileWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/tsconfig.json 1:: WatchInfo: /home/niedzwiedz/Programming/slick-table/tsconfig.json 2000 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Config file
+Info 579  [17:08:14.084] FileWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/package.json 1:: WatchInfo: /home/niedzwiedz/Programming/slick-table/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 580  [17:08:14.084] Elapsed:: 0.7160730361938477ms FileWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/package.json 1:: WatchInfo: /home/niedzwiedz/Programming/slick-table/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 581  [17:08:14.334] Reloading configured project /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 582  [17:08:14.342] Config: /home/niedzwiedz/Programming/slick-table/tsconfig.json : {
+ "rootNames": [
+  "/home/niedzwiedz/Programming/slick-table/src/global.d.ts",
+  "/home/niedzwiedz/Programming/slick-table/src/slick-table.ts"
+ ],
+ "options": {
+  "moduleResolution": 2,
+  "module": 6,
+  "lib": [
+   "lib.es2020.d.ts"
+  ],
+  "target": 6,
+  "importsNotUsedAsValues": 2,
+  "isolatedModules": true,
+  "resolveJsonModule": true,
+  "sourceMap": true,
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "baseUrl": "/home/niedzwiedz/Programming/slick-table",
+  "allowJs": true,
+  "checkJs": true,
+  "paths": {
+   "$app/*": [
+    ".svelte/dev/runtime/app/*",
+    ".svelte/build/runtime/app/*"
+   ],
+   "$service-worker": [
+    ".svelte/build/runtime/service-worker"
+   ],
+   "$lib/*": [
+    "src/lib/*"
+   ]
+  },
+  "pathsBasePath": "/home/niedzwiedz/Programming/slick-table",
+  "configFilePath": "/home/niedzwiedz/Programming/slick-table/tsconfig.json"
+ }
+}
+Info 583  [17:08:14.347] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 584  [17:08:14.354] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 96 structureChanged: false Elapsed: 7.0485339760780334ms
+Info 585  [17:08:14.354] Different program with same set of files:: structureIsReused:: 2
+Info 586  [17:08:16.583] Before ensureProjectForOpenFiles:
+Info 587  [17:08:16.584] After ensureProjectForOpenFiles:
+Info 588  [17:08:16.584] got projects updated in background, updating diagnostics for /home/niedzwiedz/Programming/slick-table/src/slick-table.ts

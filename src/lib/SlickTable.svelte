@@ -1,7 +1,7 @@
 <script lang="ts">
   type T = unknown | object;
-  import type {TableHeader, TableConfig} from '../slick-table';
-  import {map} from 'lodash';
+  import type { TableHeader, TableConfig } from '../slick-table';
+  import { map } from 'lodash';
 
   export let tableConfig: TableConfig<T>;
   $: items = tableConfig.items;
@@ -15,17 +15,17 @@
       {header.text}
     </div>
   {/each}
-{#each tableRows as row, rowIndex (rowIndex)}
-  {#each row as cell, columnIndex (columnIndex)}
-    <div class="cell">
-      {cell}
-    </div>
+  {#each tableRows as row, rowIndex (rowIndex)}
+    {#each row as cell, columnIndex (columnIndex)}
+      <div class="cell">
+        {cell}
+      </div>
+    {/each}
   {/each}
-{/each}
 </div>
 
 <style lang="scss">
-  @import "../styles/main.scss";
+  @import '../styles/main.scss';
   .slick-table {
     @include grid-center;
   }
