@@ -1,0 +1,873 @@
+Info 0    [15:32:16.290] Starting TS Server
+Info 1    [15:32:16.290] Version: 4.1.3
+Info 2    [15:32:16.290] Arguments: /home/niedzwiedz/.nvm/versions/node/v13.8.0/bin/node /home/niedzwiedz/.nvm/versions/node/v15.3.0/bin/tsserver --logFile /home/niedzwiedz/Programming/slick-table/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/db4a2760d03a3326432e64f34e714005/tscancellation*
+Info 3    [15:32:16.290] Platform: linux NodeVersion: 13 CaseSensitive: true
+Info 4    [15:32:16.291] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [15:32:18.810] Before ensureProjectForOpenFiles:
+Info 6    [15:32:18.810] After ensureProjectForOpenFiles:
+Info 7    [15:32:18.811] got projects updated in background, updating diagnostics for 
+Info 8    [15:32:21.542] Search path: /home/niedzwiedz/Programming/slick-table/src
+Info 9    [15:32:21.543] For info: /home/niedzwiedz/Programming/slick-table/src/slick-table.ts :: Config file name: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 10   [15:32:21.543] Opened configuration file /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 11   [15:32:21.557] Config: /home/niedzwiedz/Programming/slick-table/tsconfig.json : {
+ "rootNames": [
+  "/home/niedzwiedz/Programming/slick-table/src/global.d.ts",
+  "/home/niedzwiedz/Programming/slick-table/src/slick-table.ts"
+ ],
+ "options": {
+  "moduleResolution": 2,
+  "module": 6,
+  "lib": [
+   "lib.es2020.d.ts"
+  ],
+  "target": 6,
+  "importsNotUsedAsValues": 2,
+  "isolatedModules": true,
+  "resolveJsonModule": true,
+  "sourceMap": true,
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "baseUrl": "/home/niedzwiedz/Programming/slick-table",
+  "allowJs": true,
+  "checkJs": true,
+  "paths": {
+   "$app/*": [
+    ".svelte/dev/runtime/app/*",
+    ".svelte/build/runtime/app/*"
+   ],
+   "$service-worker": [
+    ".svelte/build/runtime/service-worker"
+   ],
+   "$lib/*": [
+    "src/lib/*"
+   ]
+  },
+  "pathsBasePath": "/home/niedzwiedz/Programming/slick-table",
+  "configFilePath": "/home/niedzwiedz/Programming/slick-table/tsconfig.json"
+ }
+}
+Info 12   [15:32:21.568] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 13   [15:32:23.849] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 1 structureChanged: true Elapsed: 2280.24995803833ms
+Info 14   [15:32:23.849] Project '/home/niedzwiedz/Programming/slick-table/tsconfig.json' (Configured)
+Info 15   [15:32:23.849] 	Files (149)
+
+Info 16   [15:32:23.849] -----------------------------------------------
+Info 17   [15:32:23.886] Format host information updated
+Info 18   [15:32:23.892] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 19   [15:32:23.898] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 2 structureChanged: false Elapsed: 5.861194014549255ms
+Info 20   [15:32:23.898] Different program with same set of files:: structureIsReused:: 2
+Info 21   [15:32:23.901] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 22   [15:32:23.907] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 3 structureChanged: false Elapsed: 6.219410002231598ms
+Info 23   [15:32:23.907] Different program with same set of files:: structureIsReused:: 2
+Info 24   [15:32:23.916] Format host information updated
+Info 25   [15:32:24.123] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 26   [15:32:24.134] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 4 structureChanged: false Elapsed: 10.901256024837494ms
+Info 27   [15:32:24.134] Different program with same set of files:: structureIsReused:: 2
+Info 28   [15:32:27.250] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 29   [15:32:27.259] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 5 structureChanged: false Elapsed: 8.782941997051239ms
+Info 30   [15:32:27.259] Different program with same set of files:: structureIsReused:: 2
+Info 31   [16:25:42.858] DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src :: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Wild card directory
+Info 32   [16:25:42.858] Elapsed:: 0.5950740575790405ms DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src :: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Wild card directory
+Info 33   [16:25:42.858] DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src :: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
+Info 34   [16:25:42.858] Elapsed:: 0.1672459840774536ms DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src :: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
+Info 35   [16:25:43.121] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 36   [16:25:43.176] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 6 structureChanged: true Elapsed: 54.54892498254776ms
+Info 37   [16:25:43.176] Different program with same set of files:: structureIsReused:: 1
+Info 38   [16:25:45.614] Before ensureProjectForOpenFiles:
+Info 39   [16:25:45.615] After ensureProjectForOpenFiles:
+Info 40   [16:25:45.615] got projects updated in background, updating diagnostics for /home/niedzwiedz/Programming/slick-table/src/slick-table.ts
+Info 41   [16:25:49.161] DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src/styles/main.scss 0:: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Wild card directory
+Info 42   [16:25:49.161] Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Detected file add/remove of non supported extension: /home/niedzwiedz/Programming/slick-table/src/styles/main.scss
+Info 43   [16:25:49.161] Elapsed:: 0.347025990486145ms DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src/styles/main.scss 0:: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Wild card directory
+Info 44   [16:25:49.161] DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src/styles/main.scss 0:: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
+Info 45   [16:25:49.162] Elapsed:: 0.07301795482635498ms DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/src/styles/main.scss 0:: WatchInfo: /home/niedzwiedz/Programming/slick-table/src 1 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
+Info 46   [16:29:21.741] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 47   [16:29:21.756] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 7 structureChanged: false Elapsed: 15.396797001361847ms
+Info 48   [16:29:21.756] Different program with same set of files:: structureIsReused:: 2
+Info 49   [16:29:22.267] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 50   [16:29:22.281] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 8 structureChanged: false Elapsed: 13.280619978904724ms
+Info 51   [16:29:22.281] Different program with same set of files:: structureIsReused:: 2
+Info 52   [16:29:23.188] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 53   [16:29:23.199] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 9 structureChanged: false Elapsed: 11.223944962024689ms
+Info 54   [16:29:23.199] Different program with same set of files:: structureIsReused:: 2
+Info 55   [16:29:23.201] getCompletionData: Get current token: 0.023845016956329346
+Info 56   [16:29:23.201] getCompletionData: Is inside comment: 0.0091170072555542
+Info 57   [16:29:23.202] getCompletionData: Get previous token 1: 1.009947955608368
+Info 58   [16:29:23.202] getCompletionData: Get previous token 2: 0.07806801795959473
+Info 59   [16:29:23.203] getCompletionsAtPosition: isCompletionListBlocker: 0.3408239483833313
+Info 60   [16:29:23.209] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 61   [16:29:23.238] forEachExternalModuleToImportFrom: filtered out 102 modules by package.json contents
+Info 62   [16:29:23.240] getSymbolsFromOtherSourceFileExports: 30.578890025615692
+Info 63   [16:29:23.252] getCompletionData: Semantic work: 49.4940260052681
+Info 64   [16:29:23.278] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.64868700504303
+Info 65   [16:29:23.335] getCompletionData: Get current token: 0.020147979259490967
+Info 66   [16:29:23.335] getCompletionData: Is inside comment: 0.007633984088897705
+Info 67   [16:29:23.336] getCompletionData: Get previous token 1: 0.055665016174316406
+Info 68   [16:29:23.336] getCompletionData: Get previous token 2: 0.08810597658157349
+Info 69   [16:29:23.336] getCompletionsAtPosition: isCompletionListBlocker: 0.013715982437133789
+Info 70   [16:29:23.340] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 71   [16:29:23.344] getCompletionData: Semantic work: 7.877102017402649
+Info 72   [16:29:23.357] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.029774963855743
+Info 73   [16:29:23.364] getCompletionData: Get current token: 0.009608983993530273
+Info 74   [16:29:23.364] getCompletionData: Is inside comment: 0.004087984561920166
+Info 75   [16:29:23.364] getCompletionData: Get previous token 1: 0.034896016120910645
+Info 76   [16:29:23.364] getCompletionData: Get previous token 2: 0.043772995471954346
+Info 77   [16:29:23.364] getCompletionsAtPosition: isCompletionListBlocker: 0.011902034282684326
+Info 78   [16:29:23.367] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 79   [16:29:23.370] getCompletionData: Semantic work: 6.243755996227264
+Info 80   [16:29:23.376] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.3309019804000854
+Info 81   [16:38:57.104] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 82   [16:38:57.113] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 10 structureChanged: false Elapsed: 9.201757967472076ms
+Info 83   [16:38:57.113] Different program with same set of files:: structureIsReused:: 2
+Info 84   [16:38:58.868] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 85   [16:38:58.877] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 11 structureChanged: false Elapsed: 9.342032015323639ms
+Info 86   [16:38:58.877] Different program with same set of files:: structureIsReused:: 2
+Info 87   [16:38:59.610] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 88   [16:38:59.620] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 12 structureChanged: false Elapsed: 9.435139000415802ms
+Info 89   [16:38:59.620] Different program with same set of files:: structureIsReused:: 2
+Info 90   [16:39:02.614] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 91   [16:39:02.625] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 13 structureChanged: false Elapsed: 10.145709037780762ms
+Info 92   [16:39:02.625] Different program with same set of files:: structureIsReused:: 2
+Info 93   [16:39:02.625] getCompletionData: Get current token: 0.007044017314910889
+Info 94   [16:39:02.625] getCompletionData: Is inside comment: 0.024255990982055664
+Info 95   [16:39:02.625] getCompletionData: Get previous token 1: 0.013845980167388916
+Info 96   [16:39:02.625] getCompletionData: Get previous token 2: 0.02277296781539917
+Info 97   [16:39:02.625] getCompletionsAtPosition: isCompletionListBlocker: 0.016701042652130127
+Info 98   [16:39:02.629] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 99   [16:39:02.632] getCompletionData: Semantic work: 6.866513013839722
+Info 100  [16:39:02.648] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.30403596162796
+Info 101  [16:39:03.089] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 102  [16:39:03.099] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 14 structureChanged: false Elapsed: 9.494129002094269ms
+Info 103  [16:39:03.099] Different program with same set of files:: structureIsReused:: 2
+Info 104  [16:39:03.768] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 105  [16:39:03.778] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 15 structureChanged: false Elapsed: 9.450946986675262ms
+Info 106  [16:39:03.778] Different program with same set of files:: structureIsReused:: 2
+Info 107  [16:39:03.778] getCompletionData: Get current token: 0.006873011589050293
+Info 108  [16:39:03.778] getCompletionData: Is inside comment: 0.02138000726699829
+Info 109  [16:39:03.778] getCompletionData: Get previous token 1: 0.016270995140075684
+Info 110  [16:39:03.778] getCompletionData: Get previous token 2: 0.025878965854644775
+Info 111  [16:39:03.778] getCompletionsAtPosition: isCompletionListBlocker: 0.012714028358459473
+Info 112  [16:39:03.783] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 113  [16:39:03.787] getCompletionData: Semantic work: 8.55933701992035
+Info 114  [16:39:03.798] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.096702992916107
+Info 115  [16:39:04.952] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 116  [16:39:04.962] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 16 structureChanged: false Elapsed: 8.967114984989166ms
+Info 117  [16:39:04.962] Different program with same set of files:: structureIsReused:: 2
+Info 118  [16:39:04.962] getCompletionData: Get current token: 0.005369961261749268
+Info 119  [16:39:04.962] getCompletionData: Is inside comment: 0.02191096544265747
+Info 120  [16:39:04.962] getCompletionData: Get previous token 1: 0.014818012714385986
+Info 121  [16:39:04.962] getCompletionData: Get previous token 2: 0.025767982006072998
+Info 122  [16:39:04.962] getCompletionsAtPosition: isCompletionListBlocker: 0.006241023540496826
+Info 123  [16:39:04.962] Returning an empty list because completion was requested in an invalid position.
+Info 124  [16:39:05.834] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 125  [16:39:05.844] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 17 structureChanged: false Elapsed: 9.504128992557526ms
+Info 126  [16:39:05.844] Different program with same set of files:: structureIsReused:: 2
+Info 127  [16:39:06.122] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 128  [16:39:06.132] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 18 structureChanged: false Elapsed: 9.460106015205383ms
+Info 129  [16:39:06.132] Different program with same set of files:: structureIsReused:: 2
+Info 130  [16:39:06.132] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 131  [16:39:06.141] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 19 structureChanged: false Elapsed: 9.331601977348328ms
+Info 132  [16:39:06.141] Different program with same set of files:: structureIsReused:: 2
+Info 133  [16:39:06.570] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 134  [16:39:06.579] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 20 structureChanged: false Elapsed: 8.947669982910156ms
+Info 135  [16:39:06.579] Different program with same set of files:: structureIsReused:: 2
+Info 136  [16:39:07.196] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 137  [16:39:07.205] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 21 structureChanged: false Elapsed: 8.905579030513763ms
+Info 138  [16:39:07.205] Different program with same set of files:: structureIsReused:: 2
+Info 139  [16:39:17.695] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 140  [16:39:17.707] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 22 structureChanged: false Elapsed: 11.385459005832672ms
+Info 141  [16:39:17.707] Different program with same set of files:: structureIsReused:: 2
+Info 142  [16:39:17.903] getCompletionData: Get current token: 0.006663024425506592
+Info 143  [16:39:17.903] getCompletionData: Is inside comment: 0.026018977165222168
+Info 144  [16:39:17.903] getCompletionData: Get previous token 1: 0.018073976039886475
+Info 145  [16:39:17.903] getCompletionsAtPosition: isCompletionListBlocker: 0.006021976470947266
+Info 146  [16:39:17.903] Returning an empty list because completion was requested in an invalid position.
+Info 147  [16:39:18.193] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 148  [16:39:18.203] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 23 structureChanged: false Elapsed: 9.984795987606049ms
+Info 149  [16:39:18.203] Different program with same set of files:: structureIsReused:: 2
+Err 150   [16:39:18.226] Exception on executing command {"command":"getCodeFixes","seq":283,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":9,"startOffset":30,"endLine":9,"endOffset":30,"errorCodes":[1005,2391,7050]}}:
+
+    Debug Failure. Expected 203 <= 202
+
+    Error: Debug Failure. Expected 203 <= 202
+        at Object.createFileDiagnostic (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:18493:22)
+        at checkUnusedTypeParameters (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:73682:76)
+        at checkUnusedIdentifiers (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:73590:25)
+        at Object.getSuggestionDiagnostics (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:43754:21)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:106083:61
+        at runWithCancellationToken (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:106011:24)
+        at Object.getSuggestionDiagnostics (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:106082:20)
+        at Object.computeSuggestionDiagnostics (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:128381:36)
+        at getDiagnostics (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133563:165)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133528:31)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 151  [16:39:18.467] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 152  [16:39:18.474] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 24 structureChanged: false Elapsed: 7.722880005836487ms
+Info 153  [16:39:18.474] Different program with same set of files:: structureIsReused:: 2
+Err 154   [16:39:18.788] Exception on executing command {"command":"getCodeFixes","seq":291,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":9,"startOffset":31,"endLine":9,"endOffset":31,"errorCodes":[1005,2391,7050,6133]}}:
+
+    Cannot read property 'kind' of undefined
+
+    TypeError: Cannot read property 'kind' of undefined
+        at Object.isImportClause (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:26605:21)
+        at Object.deleteDeclaration (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133367:32)
+        at _loop_9 (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132875:47)
+        at ChangeTracker.finishDeleteDeclarations (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132882:21)
+        at ChangeTracker.getChanges (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132902:22)
+        at Function.ChangeTracker.with (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132352:32)
+        at Object.getCodeActions (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:138111:69)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:77
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:23)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 155  [16:39:18.815] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 156  [16:39:18.824] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 25 structureChanged: false Elapsed: 8.780655026435852ms
+Info 157  [16:39:18.824] Different program with same set of files:: structureIsReused:: 2
+Info 158  [16:39:20.911] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 159  [16:39:20.922] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 26 structureChanged: false Elapsed: 10.548619031906128ms
+Info 160  [16:39:20.922] Different program with same set of files:: structureIsReused:: 2
+Info 161  [16:39:24.361] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 162  [16:39:24.370] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 27 structureChanged: false Elapsed: 9.404501020908356ms
+Info 163  [16:39:24.370] Different program with same set of files:: structureIsReused:: 2
+Info 164  [16:39:25.649] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 165  [16:39:25.656] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 28 structureChanged: false Elapsed: 7.19235897064209ms
+Info 166  [16:39:25.656] Different program with same set of files:: structureIsReused:: 2
+Info 167  [16:39:25.947] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 168  [16:39:25.956] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 29 structureChanged: false Elapsed: 8.726563036441803ms
+Info 169  [16:39:25.956] Different program with same set of files:: structureIsReused:: 2
+Info 170  [16:39:26.566] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 171  [16:39:26.574] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 30 structureChanged: false Elapsed: 8.068051040172577ms
+Info 172  [16:39:26.574] Different program with same set of files:: structureIsReused:: 2
+Info 173  [16:39:26.574] getCompletionData: Get current token: 0.011260986328125
+Info 174  [16:39:26.575] getCompletionData: Is inside comment: 0.0047789812088012695
+Info 175  [16:39:26.575] getCompletionData: Get previous token 1: 0.03255099058151245
+Info 176  [16:39:26.575] getCompletionData: Get previous token 2: 0.02385503053665161
+Info 177  [16:39:26.575] getCompletionsAtPosition: isCompletionListBlocker: 0.09963804483413696
+Info 178  [16:39:26.575] Returning an empty list because completion was requested in an invalid position.
+Info 179  [16:39:27.219] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 180  [16:39:27.229] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 31 structureChanged: false Elapsed: 10.326391994953156ms
+Info 181  [16:39:27.229] Different program with same set of files:: structureIsReused:: 2
+Info 182  [16:39:27.236] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 183  [16:39:27.243] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 32 structureChanged: false Elapsed: 7.641416013240814ms
+Info 184  [16:39:27.244] Different program with same set of files:: structureIsReused:: 2
+Info 185  [16:39:27.732] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 186  [16:39:27.740] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 33 structureChanged: false Elapsed: 7.932444989681244ms
+Info 187  [16:39:27.740] Different program with same set of files:: structureIsReused:: 2
+Info 188  [16:39:28.895] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 189  [16:39:28.906] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 34 structureChanged: false Elapsed: 10.439885973930359ms
+Info 190  [16:39:28.906] Different program with same set of files:: structureIsReused:: 2
+Info 191  [16:39:28.906] getCompletionData: Get current token: 0.008126020431518555
+Info 192  [16:39:28.906] getCompletionData: Is inside comment: 0.004137992858886719
+Info 193  [16:39:28.906] getCompletionData: Get previous token 1: 0.03273200988769531
+Info 194  [16:39:28.906] getCompletionData: Get previous token 2: 0.02515798807144165
+Info 195  [16:39:28.906] getCompletionsAtPosition: isCompletionListBlocker: 0.009527981281280518
+Info 196  [16:39:28.910] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 197  [16:39:28.920] getCompletionData: Semantic work: 13.656102001667023
+Info 198  [16:39:28.932] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.165430009365082
+Info 199  [16:39:29.069] getCompletionData: Get current token: 0.011741995811462402
+Info 200  [16:39:29.069] getCompletionData: Is inside comment: 0.00541996955871582
+Info 201  [16:39:29.069] getCompletionData: Get previous token 1: 0.026670992374420166
+Info 202  [16:39:29.069] getCompletionData: Get previous token 2: 0.025767982006072998
+Info 203  [16:39:29.069] getCompletionsAtPosition: isCompletionListBlocker: 0.00672304630279541
+Info 204  [16:39:29.074] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 205  [16:39:29.078] getCompletionData: Semantic work: 8.995159029960632
+Info 206  [16:39:29.094] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.886571943759918
+Info 207  [16:39:29.101] getCompletionData: Get current token: 0.011222004890441895
+Info 208  [16:39:29.101] getCompletionData: Is inside comment: 0.006031990051269531
+Info 209  [16:39:29.101] getCompletionData: Get previous token 1: 0.032482028007507324
+Info 210  [16:39:29.101] getCompletionData: Get previous token 2: 0.03041696548461914
+Info 211  [16:39:29.101] getCompletionsAtPosition: isCompletionListBlocker: 0.006031990051269531
+Info 212  [16:39:29.105] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 213  [16:39:29.108] getCompletionData: Semantic work: 6.9688169956207275
+Info 214  [16:39:29.118] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.7763999700546265
+Info 215  [16:39:29.277] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 216  [16:39:29.285] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 35 structureChanged: false Elapsed: 7.7699390053749084ms
+Info 217  [16:39:29.285] Different program with same set of files:: structureIsReused:: 2
+Info 218  [16:39:29.285] getCompletionData: Get current token: 0.008094966411590576
+Info 219  [16:39:29.286] getCompletionData: Is inside comment: 0.004278004169464111
+Info 220  [16:39:29.286] getCompletionData: Get previous token 1: 0.029626011848449707
+Info 221  [16:39:29.286] getCompletionData: Get previous token 2: 0.024116039276123047
+Info 222  [16:39:29.286] getCompletionsAtPosition: isCompletionListBlocker: 0.005079984664916992
+Info 223  [16:39:29.289] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 224  [16:39:29.297] getCompletionData: Semantic work: 11.321687996387482
+Info 225  [16:39:29.303] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.64081197977066
+Info 226  [16:39:30.208] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 227  [16:39:30.215] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 36 structureChanged: false Elapsed: 6.7564849853515625ms
+Info 228  [16:39:30.215] Different program with same set of files:: structureIsReused:: 2
+Info 229  [16:39:30.216] getCompletionData: Get current token: 0.02381497621536255
+Info 230  [16:39:30.216] getCompletionData: Is inside comment: 0.011561989784240723
+Info 231  [16:39:30.216] getCompletionData: Get previous token 1: 0.03641897439956665
+Info 232  [16:39:30.216] getCompletionData: Get previous token 2: 0.024205029010772705
+Info 233  [16:39:30.216] getCompletionsAtPosition: isCompletionListBlocker: 0.005531013011932373
+Info 234  [16:39:30.218] getSymbolsFromOtherSourceFileExports: Recomputing list for details entry
+Info 235  [16:39:30.245] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 236  [16:39:30.250] getSymbolsFromOtherSourceFileExports: 31.614481985569
+Info 237  [16:39:30.260] getCompletionData: Semantic work: 43.60981100797653
+Info 238  [16:39:30.261] getCompletionData: Get current token: 0.043242037296295166
+Info 239  [16:39:30.261] getCompletionData: Is inside comment: 0.010029017925262451
+Info 240  [16:39:30.261] getCompletionData: Get previous token 1: 0.0453450083732605
+Info 241  [16:39:30.261] getCompletionData: Get previous token 2: 0.036428987979888916
+Info 242  [16:39:30.261] getCompletionsAtPosition: isCompletionListBlocker: 0.006262004375457764
+Info 243  [16:39:30.264] getSymbolsFromOtherSourceFileExports: Recomputing list for details entry
+Info 244  [16:39:30.274] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 245  [16:39:30.279] getSymbolsFromOtherSourceFileExports: 15.512605011463165
+Info 246  [16:39:30.283] getCompletionData: Semantic work: 21.962572991847992
+Info 247  [16:39:52.498] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 248  [16:39:52.505] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 37 structureChanged: false Elapsed: 7.044941008090973ms
+Info 249  [16:39:52.505] Different program with same set of files:: structureIsReused:: 2
+Info 250  [16:39:52.953] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 251  [16:39:52.960] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 38 structureChanged: false Elapsed: 6.873467028141022ms
+Info 252  [16:39:52.960] Different program with same set of files:: structureIsReused:: 2
+Info 253  [16:39:53.262] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 254  [16:39:53.271] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 39 structureChanged: false Elapsed: 9.363765001296997ms
+Info 255  [16:39:53.272] Different program with same set of files:: structureIsReused:: 2
+Info 256  [16:39:54.267] getCompletionData: Get current token: 0.007384002208709717
+Info 257  [16:39:54.267] getCompletionData: Is inside comment: 0.00468897819519043
+Info 258  [16:39:54.267] getCompletionData: Get previous token 1: 0.38493597507476807
+Info 259  [16:39:54.267] getCompletionData: Get previous token 2: 0.03832197189331055
+Info 260  [16:39:54.267] getCompletionsAtPosition: isCompletionListBlocker: 0.005219995975494385
+Info 261  [16:39:54.270] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 262  [16:39:54.277] getCompletionData: Semantic work: 10.066622018814087
+Info 263  [16:39:54.287] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.110892951488495
+Info 264  [16:39:54.294] getCompletionData: Get current token: 0.008395016193389893
+Info 265  [16:39:54.294] getCompletionData: Is inside comment: 0.0061209797859191895
+Info 266  [16:39:54.294] getCompletionData: Get previous token 1: 0.03154999017715454
+Info 267  [16:39:54.294] getCompletionData: Get previous token 2: 0.023665010929107666
+Info 268  [16:39:54.294] getCompletionsAtPosition: isCompletionListBlocker: 0.005059003829956055
+Info 269  [16:39:54.300] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 270  [16:39:54.303] getCompletionData: Semantic work: 8.552775979042053
+Info 271  [16:39:54.317] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.709805011749268
+Info 272  [16:39:54.324] getCompletionData: Get current token: 0.009037971496582031
+Info 273  [16:39:54.324] getCompletionData: Is inside comment: 0.004678964614868164
+Info 274  [16:39:54.324] getCompletionData: Get previous token 1: 0.024656057357788086
+Info 275  [16:39:54.324] getCompletionData: Get previous token 2: 0.024004995822906494
+Info 276  [16:39:54.324] getCompletionsAtPosition: isCompletionListBlocker: 0.004818975925445557
+Info 277  [16:39:54.326] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 278  [16:39:54.327] getCompletionData: Semantic work: 3.5096409916877747
+Info 279  [16:39:54.332] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.007087051868439
+Info 280  [16:40:04.273] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 281  [16:40:04.284] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 40 structureChanged: false Elapsed: 10.305734992027283ms
+Info 282  [16:40:04.284] Different program with same set of files:: structureIsReused:: 2
+Info 283  [16:40:08.121] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 284  [16:40:08.131] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 41 structureChanged: false Elapsed: 9.852840006351471ms
+Info 285  [16:40:08.131] Different program with same set of files:: structureIsReused:: 2
+Info 286  [16:40:10.393] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 287  [16:40:10.407] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 42 structureChanged: false Elapsed: 13.642799019813538ms
+Info 288  [16:40:10.407] Different program with same set of files:: structureIsReused:: 2
+Info 289  [16:40:10.407] getCompletionData: Get current token: 0.017782986164093018
+Info 290  [16:40:10.408] getCompletionData: Is inside comment: 0.007835030555725098
+Info 291  [16:40:10.408] getCompletionData: Get previous token 1: 0.06525301933288574
+Info 292  [16:40:10.408] getCompletionData: Get previous token 2: 0.04349195957183838
+Info 293  [16:40:10.408] getCompletionsAtPosition: isCompletionListBlocker: 0.014667987823486328
+Info 294  [16:40:10.410] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 295  [16:40:10.417] getCompletionData: Semantic work: 8.682110965251923
+Info 296  [16:40:10.424] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.870512962341309
+Info 297  [16:40:10.440] getCompletionData: Get current token: 0.010058999061584473
+Info 298  [16:40:10.440] getCompletionData: Is inside comment: 0.009607970714569092
+Info 299  [16:40:10.440] getCompletionData: Get previous token 1: 0.04683804512023926
+Info 300  [16:40:10.440] getCompletionData: Get previous token 2: 0.03761100769042969
+Info 301  [16:40:10.440] getCompletionsAtPosition: isCompletionListBlocker: 0.015990018844604492
+Info 302  [16:40:10.443] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 303  [16:40:10.445] getCompletionData: Semantic work: 4.132506966590881
+Info 304  [16:40:10.454] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.203182995319366
+Info 305  [16:40:10.460] getCompletionData: Get current token: 0.011111021041870117
+Info 306  [16:40:10.460] getCompletionData: Is inside comment: 0.006693005561828613
+Info 307  [16:40:10.460] getCompletionData: Get previous token 1: 0.04992401599884033
+Info 308  [16:40:10.460] getCompletionData: Get previous token 2: 0.044905006885528564
+Info 309  [16:40:10.460] getCompletionsAtPosition: isCompletionListBlocker: 0.008476018905639648
+Info 310  [16:40:10.463] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 311  [16:40:10.465] getCompletionData: Semantic work: 4.540657043457031
+Info 312  [16:40:10.471] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.879882991313934
+Info 313  [16:40:11.257] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 314  [16:40:11.266] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 43 structureChanged: false Elapsed: 8.398465991020203ms
+Info 315  [16:40:11.266] Different program with same set of files:: structureIsReused:: 2
+Info 316  [16:40:11.424] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 317  [16:40:11.436] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 44 structureChanged: false Elapsed: 12.352114975452423ms
+Info 318  [16:40:11.436] Different program with same set of files:: structureIsReused:: 2
+Info 319  [16:40:11.630] getCompletionData: Get current token: 0.010359048843383789
+Info 320  [16:40:11.630] getCompletionData: Is inside comment: 0.004858970642089844
+Info 321  [16:40:11.630] getCompletionData: Get previous token 1: 0.028192996978759766
+Info 322  [16:40:11.630] getCompletionData: Get previous token 2: 0.02255302667617798
+Info 323  [16:40:11.630] getCompletionsAtPosition: isCompletionListBlocker: 0.004328012466430664
+Info 324  [16:40:11.633] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 325  [16:40:11.638] getCompletionData: Semantic work: 7.731287002563477
+Info 326  [16:40:11.647] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.480657994747162
+Info 327  [16:40:12.282] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 328  [16:40:12.296] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 45 structureChanged: false Elapsed: 13.579950988292694ms
+Info 329  [16:40:12.296] Different program with same set of files:: structureIsReused:: 2
+Info 330  [16:40:15.180] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 331  [16:40:15.189] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 46 structureChanged: false Elapsed: 8.53047502040863ms
+Info 332  [16:40:15.189] Different program with same set of files:: structureIsReused:: 2
+Info 333  [16:40:18.726] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 334  [16:40:18.734] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 47 structureChanged: false Elapsed: 7.947224974632263ms
+Info 335  [16:40:18.734] Different program with same set of files:: structureIsReused:: 2
+Info 336  [16:40:19.732] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 337  [16:40:19.745] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 48 structureChanged: false Elapsed: 12.408712029457092ms
+Info 338  [16:40:19.745] Different program with same set of files:: structureIsReused:: 2
+Info 339  [16:40:20.284] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 340  [16:40:20.293] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 49 structureChanged: false Elapsed: 8.540403962135315ms
+Info 341  [16:40:20.293] Different program with same set of files:: structureIsReused:: 2
+Info 342  [16:40:21.575] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 343  [16:40:21.583] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 50 structureChanged: false Elapsed: 7.312967002391815ms
+Info 344  [16:40:21.583] Different program with same set of files:: structureIsReused:: 2
+Info 345  [16:40:22.002] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 346  [16:40:22.009] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 51 structureChanged: false Elapsed: 6.948769986629486ms
+Info 347  [16:40:22.009] Different program with same set of files:: structureIsReused:: 2
+Info 348  [16:40:22.578] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 349  [16:40:22.584] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 52 structureChanged: false Elapsed: 5.776930034160614ms
+Info 350  [16:40:22.584] Different program with same set of files:: structureIsReused:: 2
+Info 351  [16:40:22.585] getCompletionData: Get current token: 0.00409698486328125
+Info 352  [16:40:22.585] getCompletionData: Is inside comment: 0.010370016098022461
+Info 353  [16:40:22.585] getCompletionData: Get previous token 1: 0.009527981281280518
+Info 354  [16:40:22.585] getCompletionData: Get previous token 2: 0.0070130228996276855
+Info 355  [16:40:22.585] getCompletionsAtPosition: isCompletionListBlocker: 0.00870603322982788
+Info 356  [16:40:22.588] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 357  [16:40:22.589] getCompletionData: Semantic work: 4.60512900352478
+Info 358  [16:40:22.598] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.734499990940094
+Info 359  [16:40:23.608] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 360  [16:40:23.614] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 53 structureChanged: false Elapsed: 6.644605040550232ms
+Info 361  [16:40:23.614] Different program with same set of files:: structureIsReused:: 2
+Info 362  [16:40:23.622] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 363  [16:40:23.628] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 54 structureChanged: false Elapsed: 6.67686802148819ms
+Info 364  [16:40:23.628] Different program with same set of files:: structureIsReused:: 2
+Info 365  [16:40:24.088] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 366  [16:40:24.095] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 55 structureChanged: false Elapsed: 6.601054012775421ms
+Info 367  [16:40:24.095] Different program with same set of files:: structureIsReused:: 2
+Info 368  [16:40:25.600] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 369  [16:40:25.608] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 56 structureChanged: false Elapsed: 8.133345007896423ms
+Info 370  [16:40:25.608] Different program with same set of files:: structureIsReused:: 2
+Info 371  [16:40:25.609] getCompletionData: Get current token: 0.008455991744995117
+Info 372  [16:40:25.609] getCompletionData: Is inside comment: 0.022652029991149902
+Info 373  [16:40:25.609] getCompletionData: Get previous token 1: 0.01460796594619751
+Info 374  [16:40:25.609] getCompletionData: Get previous token 2: 0.01455700397491455
+Info 375  [16:40:25.609] getCompletionsAtPosition: isCompletionListBlocker: 0.004047989845275879
+Info 376  [16:40:25.609] Returning an empty list because completion was requested in an invalid position.
+Info 377  [16:40:29.479] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 378  [16:40:29.496] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 57 structureChanged: false Elapsed: 16.79016900062561ms
+Info 379  [16:40:29.496] Different program with same set of files:: structureIsReused:: 2
+Info 380  [16:40:29.497] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 381  [16:40:29.511] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 58 structureChanged: false Elapsed: 13.669870972633362ms
+Info 382  [16:40:29.511] Different program with same set of files:: structureIsReused:: 2
+Info 383  [16:40:29.971] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 384  [16:40:29.981] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 59 structureChanged: false Elapsed: 9.43644404411316ms
+Info 385  [16:40:29.981] Different program with same set of files:: structureIsReused:: 2
+Info 386  [16:40:31.863] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 387  [16:40:31.876] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 60 structureChanged: false Elapsed: 13.244840025901794ms
+Info 388  [16:40:31.876] Different program with same set of files:: structureIsReused:: 2
+Info 389  [16:40:31.877] getCompletionData: Get current token: 0.008175015449523926
+Info 390  [16:40:31.877] getCompletionData: Is inside comment: 0.025678038597106934
+Info 391  [16:40:31.877] getCompletionData: Get previous token 1: 0.018664956092834473
+Info 392  [16:40:31.877] getCompletionData: Get previous token 2: 0.01715296506881714
+Info 393  [16:40:31.877] getCompletionsAtPosition: isCompletionListBlocker: 0.004458010196685791
+Info 394  [16:40:31.877] getCompletionData: Semantic work: 0.16276699304580688
+Info 395  [16:40:31.878] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.1046680212020874
+Info 396  [16:40:33.322] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 397  [16:40:33.330] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 61 structureChanged: false Elapsed: 8.279501020908356ms
+Info 398  [16:40:33.330] Different program with same set of files:: structureIsReused:: 2
+Info 399  [16:40:33.808] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 400  [16:40:33.818] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 62 structureChanged: false Elapsed: 10.055392026901245ms
+Info 401  [16:40:33.818] Different program with same set of files:: structureIsReused:: 2
+Info 402  [16:40:37.436] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 403  [16:40:37.444] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 63 structureChanged: false Elapsed: 8.036203026771545ms
+Info 404  [16:40:37.444] Different program with same set of files:: structureIsReused:: 2
+Info 405  [16:40:37.444] getCompletionData: Get current token: 0.00816500186920166
+Info 406  [16:40:37.444] getCompletionData: Is inside comment: 0.02860403060913086
+Info 407  [16:40:37.444] getCompletionData: Get previous token 1: 0.019025981426239014
+Info 408  [16:40:37.445] getCompletionData: Get previous token 2: 0.017683029174804688
+Info 409  [16:40:37.445] getCompletionsAtPosition: isCompletionListBlocker: 0.0045389533042907715
+Info 410  [16:40:37.445] getCompletionData: Semantic work: 0.027402043342590332
+Info 411  [16:40:37.445] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.0022339820861816406
+Info 412  [16:40:38.636] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 413  [16:40:38.644] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 64 structureChanged: false Elapsed: 8.117406010627747ms
+Info 414  [16:40:38.644] Different program with same set of files:: structureIsReused:: 2
+Info 415  [16:40:42.877] Format host information updated
+Info 416  [16:40:43.078] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 417  [16:40:43.085] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 65 structureChanged: false Elapsed: 7.463843047618866ms
+Info 418  [16:40:43.085] Different program with same set of files:: structureIsReused:: 2
+Info 419  [16:40:44.346] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 420  [16:40:44.355] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 66 structureChanged: false Elapsed: 8.52637803554535ms
+Info 421  [16:40:44.355] Different program with same set of files:: structureIsReused:: 2
+Info 422  [16:40:44.820] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 423  [16:40:44.829] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 67 structureChanged: false Elapsed: 8.99847799539566ms
+Info 424  [16:40:44.830] Different program with same set of files:: structureIsReused:: 2
+Info 425  [16:40:46.275] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 426  [16:40:46.288] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 68 structureChanged: false Elapsed: 12.734367966651917ms
+Info 427  [16:40:46.288] Different program with same set of files:: structureIsReused:: 2
+Info 428  [16:40:46.289] getCompletionData: Get current token: 0.010680973529815674
+Info 429  [16:40:46.289] getCompletionData: Is inside comment: 0.02665996551513672
+Info 430  [16:40:46.289] getCompletionData: Get previous token 1: 0.019015967845916748
+Info 431  [16:40:46.289] getCompletionData: Get previous token 2: 0.033243000507354736
+Info 432  [16:40:46.289] getCompletionsAtPosition: isCompletionListBlocker: 0.014726996421813965
+Info 433  [16:40:46.289] getCompletionData: Semantic work: 0.03052699565887451
+Info 434  [16:40:46.289] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.003116011619567871
+Info 435  [16:40:47.032] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 436  [16:40:47.040] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 69 structureChanged: false Elapsed: 7.687575995922089ms
+Info 437  [16:40:47.040] Different program with same set of files:: structureIsReused:: 2
+Info 438  [16:40:47.965] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 439  [16:40:47.976] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 70 structureChanged: false Elapsed: 11.371867001056671ms
+Info 440  [16:40:47.976] Different program with same set of files:: structureIsReused:: 2
+Info 441  [16:40:48.565] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 442  [16:40:48.573] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 71 structureChanged: false Elapsed: 7.251533031463623ms
+Info 443  [16:40:48.573] Different program with same set of files:: structureIsReused:: 2
+Info 444  [16:40:48.573] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 445  [16:40:48.581] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 72 structureChanged: false Elapsed: 7.39556497335434ms
+Info 446  [16:40:48.581] Different program with same set of files:: structureIsReused:: 2
+Info 447  [16:40:48.780] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 448  [16:40:48.789] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 73 structureChanged: false Elapsed: 9.81584095954895ms
+Info 449  [16:40:48.790] Different program with same set of files:: structureIsReused:: 2
+Info 450  [16:40:49.322] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 451  [16:40:49.332] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 74 structureChanged: false Elapsed: 10.574862003326416ms
+Info 452  [16:40:49.332] Different program with same set of files:: structureIsReused:: 2
+Info 453  [16:40:55.339] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 454  [16:40:55.346] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 75 structureChanged: false Elapsed: 7.184266030788422ms
+Info 455  [16:40:55.346] Different program with same set of files:: structureIsReused:: 2
+Info 456  [16:40:56.121] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 457  [16:40:56.128] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 76 structureChanged: false Elapsed: 7.227898955345154ms
+Info 458  [16:40:56.129] Different program with same set of files:: structureIsReused:: 2
+Info 459  [16:40:56.582] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 460  [16:40:56.590] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 77 structureChanged: false Elapsed: 7.186649978160858ms
+Info 461  [16:40:56.590] Different program with same set of files:: structureIsReused:: 2
+Info 462  [16:40:56.869] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 463  [16:40:56.878] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 78 structureChanged: false Elapsed: 9.363258004188538ms
+Info 464  [16:40:56.879] Different program with same set of files:: structureIsReused:: 2
+Info 465  [16:40:57.039] Format host information updated
+Info 466  [16:40:57.240] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 467  [16:40:57.248] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 79 structureChanged: false Elapsed: 7.434487998485565ms
+Info 468  [16:40:57.248] Different program with same set of files:: structureIsReused:: 2
+Err 469   [16:40:57.569] Exception on executing command {"command":"getCodeFixes","seq":858,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":14,"startOffset":88,"endLine":14,"endOffset":88,"errorCodes":[1144,2314,6133,6133]}}:
+
+    Cannot read property 'kind' of undefined
+
+    TypeError: Cannot read property 'kind' of undefined
+        at Object.isImportClause (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:26605:21)
+        at Object.deleteDeclaration (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133367:32)
+        at _loop_9 (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132875:47)
+        at ChangeTracker.finishDeleteDeclarations (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132882:21)
+        at ChangeTracker.getChanges (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132902:22)
+        at Function.ChangeTracker.with (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132352:32)
+        at Object.getCodeActions (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:138111:69)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:77
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:23)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 470  [16:40:59.535] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 471  [16:40:59.543] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 80 structureChanged: false Elapsed: 7.4384350180625916ms
+Info 472  [16:40:59.543] Different program with same set of files:: structureIsReused:: 2
+Info 473  [16:40:59.740] getCompletionData: Get current token: 0.01178199052810669
+Info 474  [16:40:59.740] getCompletionData: Is inside comment: 0.004998981952667236
+Info 475  [16:40:59.740] getCompletionData: Get previous token 1: 0.022922992706298828
+Info 476  [16:40:59.740] getCompletionsAtPosition: isCompletionListBlocker: 0.006300985813140869
+Info 477  [16:40:59.748] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 478  [16:40:59.763] getCompletionData: Semantic work: 22.995781004428864
+Info 479  [16:40:59.775] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.233613014221191
+Err 480   [16:40:59.788] Exception on executing command {"command":"getCodeFixes","seq":866,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":14,"startOffset":89,"endLine":14,"endOffset":89,"errorCodes":[1144,2314,6133,6133]}}:
+
+    Cannot read property 'kind' of undefined
+
+    TypeError: Cannot read property 'kind' of undefined
+        at Object.isImportClause (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:26605:21)
+        at Object.deleteDeclaration (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133367:32)
+        at _loop_9 (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132875:47)
+        at ChangeTracker.finishDeleteDeclarations (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132882:21)
+        at ChangeTracker.getChanges (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132902:22)
+        at Function.ChangeTracker.with (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132352:32)
+        at Object.getCodeActions (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:138111:69)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:77
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:23)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 481  [16:40:59.816] getCompletionData: Get current token: 0.005891025066375732
+Info 482  [16:40:59.816] getCompletionData: Is inside comment: 0.0023940205574035645
+Info 483  [16:40:59.816] getCompletionData: Get previous token 1: 0.010579943656921387
+Info 484  [16:40:59.816] getCompletionsAtPosition: isCompletionListBlocker: 0.0038979649543762207
+Info 485  [16:40:59.819] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 486  [16:40:59.820] getCompletionData: Semantic work: 4.387006998062134
+Info 487  [16:40:59.832] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.98071002960205
+Info 488  [16:40:59.837] getCompletionData: Get current token: 0.003706991672515869
+Info 489  [16:40:59.837] getCompletionData: Is inside comment: 0.0023149847984313965
+Info 490  [16:40:59.837] getCompletionData: Get previous token 1: 0.01203298568725586
+Info 491  [16:40:59.837] getCompletionsAtPosition: isCompletionListBlocker: 0.0033460259437561035
+Info 492  [16:40:59.839] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 493  [16:40:59.841] getCompletionData: Semantic work: 4.101539969444275
+Info 494  [16:40:59.845] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.4716610312461853
+Info 495  [16:40:59.849] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 496  [16:40:59.856] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 81 structureChanged: false Elapsed: 7.343716979026794ms
+Info 497  [16:40:59.856] Different program with same set of files:: structureIsReused:: 2
+Info 498  [16:41:00.029] getCompletionData: Get current token: 0.005200028419494629
+Info 499  [16:41:00.029] getCompletionData: Is inside comment: 0.0047789812088012695
+Info 500  [16:41:00.029] getCompletionData: Get previous token 1: 0.024174988269805908
+Info 501  [16:41:00.029] getCompletionData: Get previous token 2: 0.021932005882263184
+Info 502  [16:41:00.029] getCompletionsAtPosition: isCompletionListBlocker: 0.004978954792022705
+Info 503  [16:41:00.032] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 504  [16:41:00.037] getCompletionData: Semantic work: 7.674520969390869
+Info 505  [16:41:00.041] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.5088120102882385
+Err 506   [16:41:00.048] Exception on executing command {"command":"getCodeFixes","seq":875,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":14,"startOffset":90,"endLine":14,"endOffset":90,"errorCodes":[1005,2314,6133,6133]}}:
+
+    Cannot read property 'kind' of undefined
+
+    TypeError: Cannot read property 'kind' of undefined
+        at Object.isImportClause (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:26605:21)
+        at Object.deleteDeclaration (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133367:32)
+        at _loop_9 (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132875:47)
+        at ChangeTracker.finishDeleteDeclarations (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132882:21)
+        at ChangeTracker.getChanges (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132902:22)
+        at Function.ChangeTracker.with (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132352:32)
+        at Object.getCodeActions (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:138111:69)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:77
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:23)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 507  [16:41:00.094] getCompletionData: Get current token: 0.007183969020843506
+Info 508  [16:41:00.094] getCompletionData: Is inside comment: 0.004869043827056885
+Info 509  [16:41:00.094] getCompletionData: Get previous token 1: 0.022091984748840332
+Info 510  [16:41:00.094] getCompletionData: Get previous token 2: 0.0329129695892334
+Info 511  [16:41:00.094] getCompletionsAtPosition: isCompletionListBlocker: 0.006081044673919678
+Info 512  [16:41:00.100] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 513  [16:41:00.102] getCompletionData: Semantic work: 7.261211037635803
+Info 514  [16:41:00.112] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.260501027107239
+Info 515  [16:41:00.118] getCompletionData: Get current token: 0.00726395845413208
+Info 516  [16:41:00.118] getCompletionData: Is inside comment: 0.0045890212059021
+Info 517  [16:41:00.118] getCompletionData: Get previous token 1: 0.02729099988937378
+Info 518  [16:41:00.118] getCompletionData: Get previous token 2: 0.02436596155166626
+Info 519  [16:41:00.118] getCompletionsAtPosition: isCompletionListBlocker: 0.006722986698150635
+Info 520  [16:41:00.121] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 521  [16:41:00.123] getCompletionData: Semantic work: 4.3525829911231995
+Info 522  [16:41:00.130] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.882984042167664
+Info 523  [16:41:00.138] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 524  [16:41:00.146] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 82 structureChanged: false Elapsed: 7.281148016452789ms
+Info 525  [16:41:00.146] Different program with same set of files:: structureIsReused:: 2
+Err 526   [16:41:00.325] Exception on executing command {"command":"getCodeFixes","seq":883,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":14,"startOffset":91,"endLine":14,"endOffset":91,"errorCodes":[1005,2314,6133,6133]}}:
+
+    Cannot read property 'kind' of undefined
+
+    TypeError: Cannot read property 'kind' of undefined
+        at Object.isImportClause (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:26605:21)
+        at Object.deleteDeclaration (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133367:32)
+        at _loop_9 (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132875:47)
+        at ChangeTracker.finishDeleteDeclarations (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132882:21)
+        at ChangeTracker.getChanges (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132902:22)
+        at Function.ChangeTracker.with (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132352:32)
+        at Object.getCodeActions (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:138111:69)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:77
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:23)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Err 527   [16:41:00.633] Exception on executing command {"command":"getCodeFixes","seq":887,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":14,"startOffset":91,"endLine":14,"endOffset":91,"errorCodes":[1144,6133,6133]}}:
+
+    Cannot read property 'kind' of undefined
+
+    TypeError: Cannot read property 'kind' of undefined
+        at Object.isImportClause (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:26605:21)
+        at Object.deleteDeclaration (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133367:32)
+        at _loop_9 (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132875:47)
+        at ChangeTracker.finishDeleteDeclarations (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132882:21)
+        at ChangeTracker.getChanges (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132902:22)
+        at Function.ChangeTracker.with (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132352:32)
+        at Object.getCodeActions (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:138111:69)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:77
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:23)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 528  [16:41:01.151] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 529  [16:41:01.157] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 83 structureChanged: false Elapsed: 5.986725986003876ms
+Info 530  [16:41:01.157] Different program with same set of files:: structureIsReused:: 2
+Err 531   [16:41:01.166] Exception on executing command {"command":"getCodeFixes","seq":894,"type":"request","arguments":{"file":"/home/niedzwiedz/Programming/slick-table/src/slick-table.ts","startLine":14,"startOffset":92,"endLine":14,"endOffset":92,"errorCodes":[1144,6133,6133]}}:
+
+    Cannot read property 'kind' of undefined
+
+    TypeError: Cannot read property 'kind' of undefined
+        at Object.isImportClause (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:26605:21)
+        at Object.deleteDeclaration (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133367:32)
+        at _loop_9 (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132875:47)
+        at ChangeTracker.finishDeleteDeclarations (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132882:21)
+        at ChangeTracker.getChanges (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132902:22)
+        at Function.ChangeTracker.with (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:132352:32)
+        at Object.getCodeActions (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:138111:69)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:77
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:133530:23)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147039:35
+        at Object.flatMap (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:513:25)
+        at Object.getCodeFixesAtPosition (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:147037:23)
+        at IOSession.Session.getCodeFixes (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:157982:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:156659:61)
+        at /home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:88
+        at IOSession.Session.executeWithRequestId (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158273:28)
+        at IOSession.Session.executeCommand (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158282:33)
+        at IOSession.Session.onMessage (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:158306:35)
+        at Interface.<anonymous> (/home/niedzwiedz/.nvm/versions/node/v15.3.0/lib/node_modules/typescript/lib/tsserver.js:160516:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:327:10)
+        at Interface._normalWrite (readline.js:472:12)
+        at Socket.ondata (readline.js:184:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:297:12)
+        at readableAddChunk (_stream_readable.js:273:9)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 532  [16:41:01.546] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 533  [16:41:01.551] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 84 structureChanged: false Elapsed: 5.239067018032074ms
+Info 534  [16:41:01.551] Different program with same set of files:: structureIsReused:: 2
+Info 535  [16:41:02.399] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 536  [16:41:02.407] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 85 structureChanged: false Elapsed: 7.45797199010849ms
+Info 537  [16:41:02.407] Different program with same set of files:: structureIsReused:: 2
+Info 538  [16:41:03.579] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 539  [16:41:03.586] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 86 structureChanged: false Elapsed: 6.2417579889297485ms
+Info 540  [16:41:03.586] Different program with same set of files:: structureIsReused:: 2
+Info 541  [16:41:05.544] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 542  [16:41:05.550] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 87 structureChanged: false Elapsed: 6.691405951976776ms
+Info 543  [16:41:05.550] Different program with same set of files:: structureIsReused:: 2
+Info 544  [16:41:06.534] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 545  [16:41:06.541] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 88 structureChanged: false Elapsed: 7.003966987133026ms
+Info 546  [16:41:06.541] Different program with same set of files:: structureIsReused:: 2
+Info 547  [16:41:08.323] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 548  [16:41:08.336] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 89 structureChanged: false Elapsed: 12.996502995491028ms
+Info 549  [16:41:08.336] Different program with same set of files:: structureIsReused:: 2
+Info 550  [16:41:08.337] getCompletionData: Get current token: 0.012063026428222656
+Info 551  [16:41:08.337] getCompletionData: Is inside comment: 0.007664024829864502
+Info 552  [16:41:08.337] getCompletionData: Get previous token 1: 0.07464104890823364
+Info 553  [16:41:08.337] getCompletionData: Get previous token 2: 0.05071598291397095
+Info 554  [16:41:08.337] getCompletionsAtPosition: isCompletionListBlocker: 0.005981028079986572
+Info 555  [16:41:08.338] getCompletionData: Semantic work: 0.9842580556869507
+Info 556  [16:41:08.339] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.22365200519561768
+Info 557  [16:41:09.202] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 558  [16:41:09.209] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 90 structureChanged: false Elapsed: 7.120254993438721ms
+Info 559  [16:41:09.209] Different program with same set of files:: structureIsReused:: 2
+Info 560  [16:41:10.122] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 561  [16:41:10.129] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 91 structureChanged: false Elapsed: 6.622736990451813ms
+Info 562  [16:41:10.129] Different program with same set of files:: structureIsReused:: 2
+Info 563  [16:41:10.432] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 564  [16:41:10.439] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 92 structureChanged: false Elapsed: 6.611696004867554ms
+Info 565  [16:41:10.439] Different program with same set of files:: structureIsReused:: 2
+Info 566  [16:41:10.645] Starting updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json
+Info 567  [16:41:10.655] Finishing updateGraphWorker: Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json Version: 93 structureChanged: false Elapsed: 9.85132896900177ms
+Info 568  [16:41:10.656] Different program with same set of files:: structureIsReused:: 2
+Info 569  [16:54:27.103] DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/.git :: WatchInfo: /home/niedzwiedz/Programming/slick-table 0 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
+Info 570  [16:54:27.104] Elapsed:: 0.3269580006599426ms DirectoryWatcher:: Triggered with /home/niedzwiedz/Programming/slick-table/.git :: WatchInfo: /home/niedzwiedz/Programming/slick-table 0 undefined Project: /home/niedzwiedz/Programming/slick-table/tsconfig.json WatchType: Failed Lookup Locations
