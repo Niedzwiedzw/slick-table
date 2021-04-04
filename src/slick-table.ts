@@ -5,6 +5,8 @@ export interface TableHeader<T> {
 export interface TableHeader<T> {
   text: string;
   value: (val: T) => string;
+  hover?: boolean;
+  style?: (item: T) => { [key: string]: string };
 }
 
 export interface TableConfig<T> {
